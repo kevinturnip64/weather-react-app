@@ -1,0 +1,90 @@
+.weather {
+    min-width: 750px;
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+    color: #fff;
+    background: linear-gradient(rgb(190 107 223),rgb(171 143 190)) no-repeat center center/cover;
+    margin: auto 1rem;
+    padding: 1rem;
+  }
+
+  .title {
+    font-size: 23px;
+    font-weight: 700;
+  }
+  
+  .top,
+  .middle,
+  .bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .city {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 1;
+    margin: 0;
+    letter-spacing: 1px;
+  }
+  
+  .weather-description {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1;
+    margin: 0;
+  }
+  
+  .weather-icon {
+    width: 100px;
+  }
+  
+  .temperature {
+    font-weight: 600;
+    font-size: 70px;
+    width: auto;
+    letter-spacing: -5px;
+    margin: 10px 0;
+  }
+  
+  .details {
+    padding-left: 20px;
+  }
+
+  .parameter-row {
+    display: flex;
+    flex-direction: column;
+  }
+
+.todayforecast{
+    margin: 2em 1em;
+    min-width: 750px;
+    border-radius: 6px;
+    box-shadow: 10px -2px 20px 2px rgb(0 0 0 / 30%);
+    color: #000;
+    background: #fff;
+    padding: 1rem;
+  }
+  
+  .hourlyforecast{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 100%;
+  }
+  
+  .app .hourlyforecast .section {
+    width: auto;
+    text-align: center;
+  }
+
+  .highlight {
+    color: grey;
+    font-weight: 700;
+  }
+
+  .active {
+    color: black;
+    font-weight: 1000;
+  }
